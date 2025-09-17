@@ -13,10 +13,10 @@ export class Experiences {
   public arrayExperiences = signal<Ixperiences[]>([
     {
       summary: {
-        strong: 'Estágio',
-        p: 'AZO Systems | 2025 - Present',
+        strong: 'Objetivo',
+        p: '',
       },
-      text: '<p>Atualmente, realizo meu estágio em Desenvolvimento de Software na Azo Systems, onde participo de projetos reais da empresa.<p>Minhas atividades incluem apoiar o desenvolvimento de aplicações, contribuir na implementação de novas funcionalidades, acompanhar boas práticas de programação e trabalhar com metodologias ágeis em equipe. Essa experiência tem sido fundamental para aprimorar minhas habilidades técnicas e compreender o ciclo de desenvolvimento em um ambiente corporativo.<P>',
+      text: '<p>Desenvolvedor Júnior com conhecimentos em JavaScript, TypeScript e Angular, buscando oportunidade para iniciar minha carreira em desenvolvimento web com foco no crescimento profissional contínuo e na evolução para me tornar um desenvolvedor Full Stack.<P>',
     },
   ]);
 }

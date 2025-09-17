@@ -6,7 +6,7 @@ import { Knowledge } from '../../../portfolio/components/knowledge/knowledge';
 import { Experiences } from '../../../portfolio/components/experiences/experiences';
 import { Projects } from '../../../portfolio/components/projects/projects';
 
-// Components
+
 @Component({
   selector: 'app-home',
   standalone: true,

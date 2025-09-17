@@ -22,16 +22,45 @@ export class Projects {
   #dialog = inject(MatDialog)
 public arrayProjects = signal<IProjects[]>([
   {
-    src:'assets/img/projects/azo.jpg',
-    alt:'Porjeto Azo Systems',
-    title:'AZO SYSTEMS',
+    src:'assets/img/projects/lista-de-tarefas.png',
+    alt:'Porjeto to-do list',
+    title:'TO-DO LIST',
     width: '100px',
     height: '51px',
-    description: '<p>A AZO SYSTEMS foi criada com o objetivo de melhorar a performance dos nossos clientes, convertendo desafios em soluções tecnológicas eficientes. ',
+    description: '<p>Um projeto desenvolvido para treinar e aplicar conceitos de JavaScript, HTML e CSS. A aplicação permite ao usuário adicionar, marcar como concluídas e remover tarefas de forma prática, mantendo o foco na organização do dia a dia.',
     links: [
       {
-        name: 'Conheça o site',
-        href: 'https://azosystems.com.br'
+        name: 'Conheça',
+        href: 'http://todolists00.netlify.app'
+      }
+    ]
+  },
+  {
+    src:'assets/img/projects/pngegg.png',
+    alt:'Mario-jump',
+    title:'MARIO JUMP',
+    width: '100px',
+    height: '70px',
+    description: '<p>Uma mistura de dois clássico, Mario e dinossauro do Google Chrome, desenvolvido com HTML, CSS e JavaScript.',
+    links: [
+      {
+        name: 'Conheça',
+        href: 'http://jogomariojumpmj.netlify.app'
+      }
+    ]
+  },
+  {
+    src:'assets/img/projects/pokemon.png',
+    alt:'Pokedex',
+    title:'POKEDEX',
+    width: '100px',
+    height: '70px',
+    description: '<p>Estou desenvolvendo uma Pokedex interativa que consome dados de uma API pública de Pokémon. O projeto tem como objetivo listar e exibir informações detalhadas sobre cada Pokémon, como nome, número, tipo e imagem.m breve, a aplicação estará rodando e disponível para testes.',
+    links: [
+      {
+        name: 'Em Breve',
+        href: 'https://trex-runner.com/'
+        
       }
     ]
   }
