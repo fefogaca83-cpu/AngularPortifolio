@@ -51,15 +51,15 @@ public arrayProjects = signal<IProjects[]>([
   },
   {
     src:'assets/img/projects/pokemon.png',
-    alt:'Pokedex',
-    title:'POKEDEX',
+    alt:'Pokédex',
+  title:'POKÉDEX',
     width: '100px',
     height: '70px',
-    description: '<p>Estou desenvolvendo uma Pokedex interativa que consome dados de uma API pública de Pokémon. O projeto tem como objetivo listar e exibir informações detalhadas sobre cada Pokémon, como nome, número, tipo e imagem.m breve, a aplicação estará rodando e disponível para testes.',
+    description: '<p>Desenvolvi uma aplicação web em Angular que consome a PokéAPI para exibir informações dos Pokémon, incluindo pesquisa por nome ou ID e uma interface intuitiva.',
     links: [
       {
-        name: 'Em Breve',
-        href: 'https://trex-runner.com/'
+        name: 'Conheça',
+        href: 'https://projetopokedexfelipe.netlify.app'
         
       }
     ]
